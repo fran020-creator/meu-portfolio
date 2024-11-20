@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Francisco Patryck</title> 
+
+  <!--- link-css --->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <!--- link-fonts --->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- SEO -->
+  <meta name="description" content="Meu Portfólio - Francisco Patryck"> 
+
+  <!-- SMO -->
+  <meta property="og:title" content="Portfólio - Francisco Patryck" >
+  <meta property="og:site_name" content="Portfólio de Francisco Patryck">
+  <meta property="og:description" content="Sou desenvolvedor web front-end. Aqui você vai encontrar alguns dos meus principais projetos. ">
+  <meta property="og:url" content="https://fran020-creator.github.io/meu-portfolio/">
+  <meta property="og:image" content="./img/home-mobile-light-mode.jpg">
+  <meta property="og:image/type">
+
+
+</head>
+<body>
+  <!-- header design -->
+  <nav>
+      <ul class="navlist">
+        <li class="active" name="nav-li"><a href="#home" class="active" name="nav-a">Início</a></li>
+        <li name="nav-li"><a href="#about" name="nav-a">Sobre</a></li>
+        <li name="nav-li"><a href="#skills" name="nav-a">Habilidades</a></li>
+        <li name="nav-li"><a href="#projects" name="nav-a">Projetos</a></li>
+        <li name="nav-li"><a href="#contact" name="nav-a">Contato</a></li>
+      </ul>
+
+      
+      <div>
+        <ul class="social-network">
+          <li>
+            <div id="switch" onclick="toggleMode()">
+              <button></button>
+              <span></span>
+            </div>
+          </li>
+          <li><a href="https://www.linkedin.com/in/patrick-paiva-7a2749269/" target="_blank">
+            <figure id="fig1"></figure>
+          </a></li>
+          <li><a href="https://github.com/fran020-creator" target="_blank">
+            <figure id="fig2"></figure>
+          </a></li>
+        </ul>
+      </div>
+      
+      <div class="bx bx-menu" id="menu-icon"></div>
+      
+    </nav>
+    
+    <main>
+      <!-- home section -->
+      <section id="home" class="home">
+        <div class="home-presentation">
+          <p class="my-name">meu nome é</p>
+          <h1 id="name">FRANCISCO</h1>
+          <h1 id="last-name">PATRYCK</h1>
+          <h3><p>sou</p> Estudante de Ciência Da Computação <span><strong>|</strong></span></h3>
+          <div class="button">
+            <a href="#projects" class="project-button">Projetos</a>
+            <a href="#contact" class="contact-button">Contato</a>
+          </div>
+        </div>
+        <img class="home-mac" src="./img/programacao.png" alt="laptop">
+      </section>
+  
+      <!-- about section -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="./img/foto-sobre-2.jpeg" alt="">
+        </div>
+        
+        <div class="about-text">
+          <h2><span>SOBRE</span> MIM</h2>
+          <p>
+            Tenho 20 anos. Estou em busca de um estagio na area de TI. 
+            Logo que comecei a estudar a respeito fiquei impressionado com o que é possível fazer com 
+            programação. A possibilidade de resolver problemas, facilitar o trabalho das pessoas, 
+            transformar idéias em algo real e, mais do que isso, transformar vidas. Isso é incrível! 
+            Mas o que me impressionou de verdade na área foi que a programação pode nos "dar mais TEMPO"!
+          </p>
+          <p>
+            O tempo é o ativo mais importante que existe, porque ele é o mais escasso. Todo mundo gostaria
+             de ter mais. Mas, às vezes, perdemos muito do nosso tempo com tarefas repetitivas ou que 
+             demorariam muito para serem executadas. Mas a programação pode dar esse tempo de PRESENTE pra
+              nós! Eu quero poder resolver problemas, transformar vidas, transformar idéias, facilitar o 
+              trabalho de alguém e "dar mais TEMPO" para as pessoas através da programação.
+          </p>
+            <button class="button-cv">
+              <a href="./assets/curriculo.pdf" download="CV - Francisco Patryck" class="btn-cv"> Download CV</a>
+            </button>
+            
+          </div>
+          <img src="./img/balls.svg" alt="balls" class="balls">
+      </section>
+      
+      <!-- skills section -->
+      <section class="skills" id="skills">
+  
+        <div class="line"></div>
+        <div class="tech">
+          <h2>TECNOLOGIAS</h2>
+          <div class="techs">
+            <div class="card">
+              <img src="./img/html-icon.svg" alt="icone html">
+              <p>HTML</p>
+            </div>
+            <div class="card">
+              <img src="./img/css-icon.svg" alt="icone css">
+              <p>CSS</p>
+            </div>
+            <div class="card">
+              <img src="./img/js-icon.svg" alt="icone javascript">
+              <p>JavaScript</p>
+            </div>
+            <div class="card">
+              <img src="./img/react-js-icon.svg" alt="icone react.js">
+              <p>React.js</p>
+            </div>
+            <div class="card">
+              <img src="./img/node-js-icon.svg" alt="icone node.js">
+              <p>Node.js</p>
+            </div>
+            <div class="card">
+              <img src="./img/python-icon.svg" alt="icone python">
+              <p>Python</p>
+            </div>
+            <div class="card">
+              <img src="./img/sql-icon.svg" alt="icone sql">
+              <p>SQL</p>
+            </div>
+            <div class="card">
+              <img src="./img/git-icon.svg" alt="icone git">
+              <p>Git</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="line"></div>
+        <div class="tool">
+          <h2>FERRAMENTAS</h2>
+          <div class="tools">
+            <div class="card">
+              <img src="./img/github-icon.svg" alt="icone github">
+              <p>GitHub</p>
+            </div>
+            <div class="card">
+              <img src="./img/vs-code-icon.svg" alt="icone vscode">
+              <p>VSCode</p>
+            </div>
+            <div class="card">
+              <img src="./img/figma-icon.svg" alt="icone figma">
+              <p>Figma</p>
+            </div>
+            <div class="card">
+              <img src="./img/mongodb-icon.svg" alt="icone mongo">
+              <p>MongoDB</p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </section>
+      
+      <!-- projects section -->
+      <section id="projects" class="projects">
+        <div class="line"></div>
+        <div class="main-text">
+          <h2>Meus <span>Projetos</span></h2>
+        </div>
+  
+        <div class="portfolio-content">
+       
+          <div class="row">
+            <img src="./img/asteroide.png" alt="print pagina do jogo">
+            <div class="layer">
+              <h5>Jogo Asteroide</h5>
+              <p>Esse repositório é uma atualização/melhoria do repositório anterior "asteroide". Nele utilizo apenas HTML, CSS e JavaScript.</p>
+              <div class="site-github">
+                <a href="https://fran020-creator.github.io/jogo-asteroide/" target="_blank"><i class='bx bx-link-external'></i></a>
+                <a href="https://github.com/fran020-creator/jogo-asteroide" target="_blank"><i class='bx bxl-github'></i></a>
+              </div>
+            </div>
+          </div>
+      
+          
+          <div class="row">
+            <img src="./img/natura-project.png" alt="print sistema de login natura">
+            <div class="layer">
+              <h5>Sistema Natura</h5>
+              <p>Esse repositório é um sistema de gerenciamento, junto com um pdv, para uma lider de natura. Nele uso Java, SQL e Swing.</p>
+              <div class="site-github">
+                <a href="https://github.com/fran020-creator/sistema_em_java_natura.git" target="_blank"><i class='bx bx-link-external'></i></a>
+                <a href="https://github.com/fran020-creator/sistema_em_java_natura.git" target="_blank"><i class='bx bxl-github'></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <img src="./img/logo-login.png" alt="print sistema de psicóloga">
+            <div class="layer">
+              <h5>Sistema para Psicóloga</h5>
+              <p>Esse repositório é um sistema de agendamento de consulta e outras funções, para uma psicóloga. Nele uso JavaScript, Node e MongoDB.</p>
+              <div class="site-github">
+                <a href="https://github.com/fran020-creator/Psico-Help-RN.git" target="_blank"><i class='bx bx-link-external'></i></a>
+                <a href="https://github.com/fran020-creator/Psico-Help-RN.git" target="_blank"><i class='bx bxl-github'></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </section>
+  
+    <!----contact section --->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <div class="main-text">
+          <h2>Entre em <span>contato</span></h2>
+        </div>
+        
+      </div>
+  
+      <div class="contact-form">
+        <form action="" method="">
+          <input type="text" name="name" placeholder="Digite seu nome" required>
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+          <input type="hidden" name="_captcha" value="false">
+          <textarea type="text" name="text" cols="35" rows="10" placeholder="Como eu posso te ajudar?" required></textarea>
+          <input type="hidden" name="_next" value="">
+          <br>
+          <input type="submit" value="Enviar" class="submit" required>
+        </form>
+      </div>
+  
+      <div class="contact-icons">
+        <a href="https://github.com/fran020-creator" target="_blank"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/patrick-paiva-7a2749269/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+       
+        
+      </div>
+  
+    </section>
+  </main>
+
+	<!----end section --->
+	<section class="end">
+		<div class="last-text">
+			<p>by Francisco Patryck <img src="./img/bussola.svg" alt=""> All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+
+  <!--- link-script --->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
